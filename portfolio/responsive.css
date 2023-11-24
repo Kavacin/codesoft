@@ -1,0 +1,36 @@
+@media screen and (max-width:1000px) {
+    
+    .box{
+        flex-direction: column;
+    }
+
+    .thirdSection{
+        height:130vh;
+    }
+    .thirdSection .vertical{
+        height: unset;
+    }
+
+    .thirdSection img{
+        top:50px;
+    }
+
+    .vertical-title , .vertical-desc{
+        left:65px;
+        top:-50px;
+    }
+
+    .fourthSection{
+        height:40vh;
+    }
+
+    .fifthSection{
+        font-size: 30px;
+        height:45vh;
+    }
+
+    .fifthSection .contact .conn{
+        font-size: 30px;
+        display: grid;
+    }
+}

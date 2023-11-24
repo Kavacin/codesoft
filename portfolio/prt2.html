@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Kavacin's Portfolio</div>
+            <div class="right">
+                <span>#redefineYourself</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <h3>About</h3>
+                Hi, my name is <span class="orange">Kavacin</span>
+                <div>and I am a passionate CSE student pursuing
+                    this field and exploring this field and
+                    discovering it's vast applications.
+                    My fields of interest are :
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="img.jpg" alt="Image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h3>Skills</h3>
+            <div class="row">
+                <img src="c.png" alt="" class="skill">
+                <img src="cpp.png" alt="" class="skill">
+                <img src="java.png" alt="" class="skill">
+            </div>
+            <div class="row">
+                <img src="pyt.png" alt="" class="skill">
+                <img src="web.png" alt="" class="skill">
+                <img src="sql.png" alt="" class="skill">
+            </div> 
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h3>Projects</h3>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="hospital.png" alt="Imag" class="image-top">
+                    <div class="vertical-title">
+                        Hospital Management System
+                    </div>
+                    <div class="vertical-desc">
+                    This project is a full stack web project which maintains the function 
+                       of a hospital in the same manner as that of a regular hospital for 
+                        making appointments , purchasing medicines etc.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="lib.png" alt="Imag" class="image-top">
+                    <div class="vertical-title">
+                        Library Management System
+                    </div>
+                    <div class="vertical-desc">
+                       This project is a full stack web project which maintains the function 
+                       of a library in the same manner as that of a regular library for 
+                       borrowing books and magazines and other functions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="flappy.png" alt="Imag" class="image-top">
+                    <div class="vertical-title">
+                        Flappy Bird
+                    </div>
+                    <div class="vertical-desc">
+                       This project is a game in which the bird has to be made to fly 
+                       in between the pillars without touching them to make the maximum 
+                       score. This project is developed using python.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="weather.png" alt="Imag" class="image-top">
+                    <div class="vertical-title">
+                        Weather App
+                    </div>
+                    <div class="vertical-desc">
+                        This project displays the weather in different continents and countries
+                        of the world at different timelines . This project is developed using 
+                        react.js.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="task.png" alt="Imag" class="image-top">
+                    <div class="vertical-title">
+                        Task Manager
+                    </div>
+                    <div class="vertical-desc">
+                        This project is developed using html,css and javascript. This 
+                        project helps us to organize our tasks in a disciplined manner.
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <h3>Resume </h3>
+            <div class="content">
+                Click here to download resume : <button class="btn">Download Resume</button>
+            </div>
+        </section>
+        <hr>
+        <section class="fifthSection">
+            <h3>Contact</h3>
+            <div class="contact">
+                For reaching out to us :
+                Email : <span class="conn">kavacin@gmail.com</span>
+                Phone No: <span class="conn">9898754201</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                For further enquiries , 
+                contact 8791209223
+                Address: Banashankari , Bangalore 
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.kavacinsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Data Scientist', 'Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
